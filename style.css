@@ -118,6 +118,12 @@ video {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+#scroller h4:hover { 
+    color: #95C11E;
 }
 
 #scorller-in{ 
@@ -143,6 +149,7 @@ video {
     margin-right: 10px;
     color: transparent;
     -webkit-text-stroke: 2px #95C11E;
+    transition: all linear 0.5s;
 }
 
 @keyframes scroll {
