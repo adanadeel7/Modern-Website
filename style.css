@@ -22,6 +22,7 @@ html,body {
     gap: 45px;
     position: fixed;
     z-index: 99;
+    
 }
 
 #nav img { 
@@ -130,7 +131,7 @@ video {
     display: inline-block;
     white-space: nowrap;
     animation: scroll;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
@@ -159,4 +160,38 @@ video {
      to { 
         transform: translateX(-100%);
      }
+}
+
+#about-us { 
+    height:40vh ;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-around;
+    position: relative;
+}
+
+#about-us img { 
+    height: 220px;
+    width: 220px; 
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#about-us-in { 
+    width: 50%;
+    text-align: center;
+}
+
+#about-us-in h3 { 
+    font-size: 50px;
+    font-size: 800;
+    margin-bottom: 40px;
+}
+
+#about-us-in p{ 
+    font-size: 20px;
+    line-height: 26px;
 }
